@@ -1,29 +1,48 @@
 # compound-interest-calculator-python
 
-A beginner-friendly Python program that calculates **compound interest** with proper input validation.
+Description :-
+This Python program calculates the final balance using compound interest.
+It ensures that the user enters valid positive values for:
+• Principal amount
+• Interest rate
+• Time (in years)
+If the user enters an invalid value (≤ 0), the program keeps asking until a valid input is provided.
 
-## Features
-- Takes principle amount, time, and rate from user
-- Prevents zero or negative values
-- Uses while loops for validation
-- Calculates compound interest accurately
+🧠 Concepts Used
+while loop
+Input validation
+Conditional statements (if)
+Type casting (int, float)
+Mathematical formula for compound interest
+pow() function
+Formatted output (f-string)
+principle = 0
+rate = 0
+time = 0
 
-## Concepts Used
-- while loop
-- if / else
-- user input
-- type conversion (int, float)
-- mathematical calculation
+Compound Interest formula:
 
-## Formula Used
+A = P × (1 + R/100) ^ T
 
 Where:
-- P = Principle
-- R = Rate
-- T = Time (years)
+P = Principal amount
+R = Interest rate
+T = Time (in years)
+A = Final amount
 
-- Example:-
-Enter the principle amount: 10000
-Enter the time (years): 2
-Enter the rate: 5
-Balance after 2 year/s: ₹11025.00
+How the Program Works
+1. Asks the user to enter the principal amount
+    • Rejects zero or negative values
+2. Asks for the interest rate
+    • Rejects zero or negative values
+3. Asks for the time in years
+    • Rejects zero or negative values
+4. Calculates the final balance using compound interest
+5. Displays the result with 2 decimal places
+
+Sample output:-
+
+Enter the principle amount: 1000
+Enter the interset rate: 5
+Enter the Time in years: 2
+Balance after 2 year/s: $1102.50
