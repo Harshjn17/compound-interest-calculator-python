@@ -9,16 +9,13 @@ It ensures that the user enters valid positive values for:
 If the user enters an invalid value (≤ 0), the program keeps asking until a valid input is provided.
 
 🧠 Concepts Used
-while loop
-Input validation
-Conditional statements (if)
-Type casting (int, float)
-Mathematical formula for compound interest
-pow() function
-Formatted output (f-string)
-principle = 0
-rate = 0
-time = 0
+• while loop
+• Input validation
+• Conditional statements (if)
+• Type casting (int, float)
+• Mathematical formula for compound interest
+• pow() function
+• Formatted output (f-string)
 
 Compound Interest formula:
 
@@ -31,6 +28,7 @@ T = Time (in years)
 A = Final amount
 
 How the Program Works
+
 1. Asks the user to enter the principal amount
     • Rejects zero or negative values
 2. Asks for the interest rate
